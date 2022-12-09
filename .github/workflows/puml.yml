@@ -23,6 +23,5 @@ jobs:
       - name: Process diagrams
         uses: Timmy/plantuml-action@v1
         with:
-          args: '-tutxt diagrams/*.txt'
-      - name: Display diagrams
-        run: cat diagrams/*.utxt
+          args: '-tpng diagrams/*.puml'
+
