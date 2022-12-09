@@ -1,0 +1,13 @@
+@startuml
+
+class Cat
+class Dog
+class Pet
+class Owner
+
+Owner *-- "1..*" Pet
+Pet <|-- Cat
+Pet <|-- Dog
+
+
+@enduml
