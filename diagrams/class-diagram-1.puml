@@ -1,5 +1,5 @@
 @startuml
-
+title document 1
 class Cat
 class Dog
 class Pet
