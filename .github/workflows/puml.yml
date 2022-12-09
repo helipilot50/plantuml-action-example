@@ -23,5 +23,5 @@ jobs:
       - name: Process diagrams
         uses: Timmy/plantuml-action@v1
         with:
-          args: '-tpng diagrams/*.puml'
+          args: '-tpng diagrams/*.puml -o images'
 
